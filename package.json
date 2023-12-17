@@ -1,0 +1,32 @@
+{
+  "name": "vue2-vuetify-vite",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Basic configuration of vue2 + vuetify + vite",
+  "repository": "https://github.com/TaKeOvEr-DeV/vue2-vuetify-vite.git",
+  "author": "Jose Luis Marin <takeoverdev@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": " vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "vite": "5.0.0",
+    "vue": "^2.7.0",
+    "vue-router": "^3.5.2",
+    "vue-toastification": "^1.7.14",
+    "vuetify": "^2.7.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "sass": "~1.32.13",
+    "unplugin-vue-components": "^0.26.0"
+  }
+}

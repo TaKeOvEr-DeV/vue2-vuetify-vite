@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "esnext",
+        "module": "esnext",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+    },
+    "include": [
+        "src/**/*.js",
+        "src/**/**/*.js",
+        "src/**/*.d.js",
+        "src/**/*.module.js",
+        "src/**/*.vue",
+        "vue.config.ts"
+    ]
+}
